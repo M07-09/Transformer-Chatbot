@@ -1,0 +1,14 @@
+# Core (GPU build of PyTorch is REQUIRED – this project refuses to run on CPU)
+# Install torch first with the CUDA index that matches your driver, e.g.:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
+torch>=2.9
+transformers>=4.51
+accelerate>=1.0
+safetensors>=0.4
+sentencepiece>=0.2
+
+# App
+streamlit>=1.46
+plotly>=5.20
+pandas>=2.0
+numpy>=1.26
